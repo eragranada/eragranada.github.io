@@ -3,6 +3,7 @@ permalink: /blog/:year/:month/:day/:title/
 environment: prod
 url: "http://eragranada.github.io"  # Sitemap base URL.
 plugins:
+  - jekyll-github-metadata
   - jekyll-scholar
   - jekyll-sitemap
   - jekyll-feed
